@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
-import ContactContainer from './components/containers/ContactList/ContactContainer';
+import { ClockFuncional } from './components/practica/ClockFuncional';
+
+
 
 function App() {
   return (
     <div className="App">
-      <ContactContainer/>
+      <ClockFuncional/>
     </div>
   );
 }
